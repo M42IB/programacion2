@@ -81,7 +81,7 @@ class TanqueDeCombustibleTest {
         assertEquals(25.0, tanque.porcentaje(), TOLERANCIA);
     }
 
-    // aqui ingreso las 2 pruebas adicionales
+    // --- Pruebas añadidas (Parte C: Opciones 8 y 9) ---
 
     @Test
     void llenarDesdeVacioSuperandoCapacidadLlenaAlMaximoYDevuelveSobrante() {
